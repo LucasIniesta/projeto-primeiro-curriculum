@@ -1,0 +1,49 @@
+#header{
+    background-color: antiquewhite;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Hubballi', cursive;
+    text-transform: uppercase;
+}
+
+#nameAndTitle{
+    background-color: white;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.listaCard{
+    font-size: 30px;
+    list-style-type: none;
+}
+
+#container{
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 30% auto;
+    column-gap: 50px;
+
+}
+
+#sidebar, #content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+
+#sidebar{
+    row-gap: 89px;
+}
+
+.card{
+    font-family: 'montserrat';
+    border: 1px solid #eaeaea;
+    border-radius: 15px;
+}
+
+.card h3{
+    font-family: 'Hubballi', cursive;
+    text-transform: uppercase;
+}
